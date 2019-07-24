@@ -6,3 +6,6 @@ class Secure_Account(Account):
         self.email = email
         self.username = username
         self.password = password
+
+    def hello(self):
+        return "Hellio World!!!"
